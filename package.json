@@ -1,0 +1,13 @@
+{
+  "name": "stocktrader-mern-app",
+  "version": "1.0.0",
+  "description": "StockTrader MERN Application",
+  "scripts": {
+    "start:backend": "npm start --prefix backend",
+    "start:frontend": "npm start --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend"
+  }
+}

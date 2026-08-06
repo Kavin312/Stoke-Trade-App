@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "label": "🚀 Start Full App (Backend + Frontend)",
+      "detail": "Runs backend Express server and frontend React app concurrently"
+    },
+    {
+      "type": "npm",
+      "script": "dev:backend",
+      "problemMatcher": [],
+      "label": "⚙️ Start Backend Server",
+      "detail": "Runs express backend server via nodemon"
+    },
+    {
+      "type": "npm",
+      "script": "dev:frontend",
+      "problemMatcher": [],
+      "label": "💻 Start Frontend App",
+      "detail": "Runs React development server"
+    },
+    {
+      "type": "npm",
+      "script": "seed",
+      "problemMatcher": [],
+      "label": "🌱 Seed Database",
+      "detail": "Seeds MongoDB with initial stocks and demo admin user"
+    }
+  ]
+}
